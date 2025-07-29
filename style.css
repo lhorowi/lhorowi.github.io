@@ -1,0 +1,324 @@
+ /********************************************************************
+                                                                   
+************************** TO ALL ***********************************
+                                                                   
+*********************************************************************/
+body {
+    background-color: #fffaf4;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #4b3832;
+}
+
+h1,
+h2,
+h3 {
+    color: #854442;
+}
+
+.clear {
+    clear: both;
+    margin-top: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+/********************************************************************
+                                                                   
+****************************** NAV **********************************
+                                                                   
+*********************************************************************/
+@media only screen and (min-width: 801px) {
+    nav {
+        background-color: #f2d5ba;
+        padding: 10px;
+        margin-bottom: 30px;
+        color: #4b3832;
+    }
+
+    nav a {
+        color: #4b3832;
+    }
+
+   
+
+    nav a:hover {
+        background-color: #c8a993;
+    }
+
+    .clear {
+        clear: both;
+        margin-top: 30px;
+    }
+}
+
+@media only screen and (max-width: 801px) {
+    nav a {
+        size: 100%;
+        display: block;
+        background-color: #f2d5ba;
+        color: #4b3832;
+        padding-left: 10px;
+
+    }
+
+    nav span {
+        display: none;
+    }
+
+
+}
+
+
+
+/********************************************************************
+                                                                   
+*************************** BIO/index *******************************
+                                                                   
+*********************************************************************/
+header img {
+    float: left;
+    margin: 15px;
+    max-width: 100%;
+    height: auto;
+}
+
+@media only screen and (max-width: 801px) {
+    header img {
+        width: 40%;
+    }
+}
+
+
+footer {
+    margin-top: 50px;
+    text-align: center;
+}
+
+footer .quote {
+    float: right;
+    margin-right: 20px;
+    font-style: italic;
+}
+
+footer .copy {
+    float: left;
+    margin-left: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+/********************************************************************
+                                                                     
+***************************** Skills ********************************
+                                                                   
+*********************************************************************/
+
+.firstrow {
+    flex-wrap: wrap;
+
+}
+
+.evenrow {
+    background-color:#cbb19b;
+}
+
+table,
+th,
+td {
+    border: 1px solid black
+}
+
+.center {
+    text-align: center;
+}
+
+
+.firstrow {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background-color: #f2d5ba;
+
+}
+
+
+.skillsimage {
+    margin-left: 20%;
+}
+
+
+
+
+
+
+
+
+
+/********************************************************************
+                                                                    
+****************************** Contact ******************************
+                                                                   
+*********************************************************************/
+
+.sec1,
+.sec2 {
+    flex-wrap: wrap;
+
+}
+
+.sec1 div,
+.sec2 div,
+.sec2 map {
+    flex: 1;
+    margin: 1em;
+
+}
+
+.sec1 {
+    display: flex;
+    margin: 1em;
+    padding: 20px;
+    background-color: #f2d5ba;
+    border-radius: 1em;
+
+}
+
+.add,
+.link {
+    margin: 20px;
+    color: #4b3832
+}
+
+
+.sec2 {
+    display: flex;
+    margin: 1em;
+    padding: 10px;
+    background-color: #f2d5ba;
+    border-radius: 1em;
+
+
+}
+
+
+
+/********************************************************************
+                                                                    
+****************************** resume *******************************
+                                                                   
+*********************************************************************/ 
+  
+  .container {
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+  }
+  
+  /* Header */
+  header {
+    text-align: center;
+  }
+  
+  header h1 {
+    font-size: 28px;
+    margin-bottom: 8px;
+    letter-spacing: 1px;
+  }
+  
+  header p {
+    font-size: 14px;
+    line-height: 1.4;
+  }
+  
+  header a {
+    color: inherit;
+    text-decoration: none;
+  }
+  
+  /* Section Headings */
+  section h2 {
+    font-size: 20px;
+    border-bottom: 2px solid #444;
+    padding-bottom: 6px;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+  }
+  
+  /* Flex layout for jobs and leadership roles */
+  .job {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+  }
+  
+  .job-header {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    font-weight: bold;
+    font-size: 15px;
+  }
+  
+  .job-header em {
+    font-style: italic;
+    font-weight: normal;
+    margin-left: 8px;
+    font-size: 14px;
+  }
+  
+  ul {
+    margin: 8px 0 0 20px;
+    padding: 0;
+    font-size: 14px;
+    line-height: 1.6;
+  }
+  
+  /* Education layout */
+  .education {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+  }
+  
+  .education .school-line {
+    display: flex;
+    justify-content: space-between;
+    font-weight: bold;
+  }
+  
+  .education .coursework {
+    font-size: 14px;
+    margin-top: 5px;
+    line-height: 1.5;
+  }
+  
+  /* Skills section */
+  section p {
+    font-size: 14px;
+    margin: 6px 0;
+  }
+  
+  /* Utilities */
+  .right {
+    float: right;
+    font-style: italic;
+  }
