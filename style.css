@@ -1,4 +1,3 @@
-/* Professional Modern Portfolio Styles - Warm/Cool Color Edition */
 :root {
   --primary-color: #E2A667;
   --secondary-color: #C96E5A;
@@ -44,7 +43,7 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-/* Professional Navigation */
+/*  Navigation */
 .nav-condensed {
   background: rgba(243, 219, 186, 0.95);
   backdrop-filter: blur(10px);
@@ -90,7 +89,7 @@ body {
   transform: scaleX(1);
 }
 
-/* Professional Hero Section */
+/*  Hero Section */
 .hero-condensed {
   background: var(--gradient-primary);
   color: white;
@@ -144,7 +143,7 @@ body {
   font-weight: 300;
 }
 
-/* Enhanced Tab System */
+/*  Tab System */
 .tab-container {
   max-width: 1200px;
   margin: 0 auto;
@@ -221,7 +220,7 @@ body {
   }
 }
 
-/* Professional Content Sections */
+/*  Content Sections */
 .content-section {
   background: var(--warm-peach);
   border-radius: 16px;
@@ -269,7 +268,7 @@ body {
   border-radius: 2px;
 }
 
-/* Enhanced About Section */
+/*  About Section */
 .about-grid {
   display: grid;
   grid-template-columns: 1fr 2fr;
@@ -346,7 +345,7 @@ body {
   font-weight: 500;
 }
 
-/* Enhanced Skills Section */
+/*  Skills Section */
 .skills-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
@@ -436,7 +435,7 @@ body {
   line-height: 1.5;
 }
 
-/* Enhanced Projects Section */
+/*  Projects Section */
 .projects-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
@@ -517,7 +516,7 @@ body {
   box-shadow: var(--shadow-sm);
 }
 
-/* Enhanced Contact Section */
+/*  Contact Section */
 .contact-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
@@ -575,7 +574,7 @@ body {
   font-weight: 500;
 }
 
-/* Enhanced Resume Section */
+/*  Resume Section */
 .resume-header {
   text-align: center;
   margin-bottom: 2rem;
@@ -741,7 +740,7 @@ body {
   background: var(--secondary-color);
 }
 
-/* Enhanced Theme Toggle */
+/*  Theme Toggle */
 .theme-toggle {
   background: var(--gradient-primary);
   border: none;
@@ -810,7 +809,7 @@ body {
   }
 }
 
-/* Dark Mode - Cool Colors Edition */
+/* Dark Mode */
 .dark-mode {
   --bg-light: #1a2a2a;
   --bg-gray: #2a3a3a;
